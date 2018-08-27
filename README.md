@@ -158,7 +158,7 @@ I'm happy to receive any feedback on this method, whether or not you think it's 
 
 ### Reading quizzes
 
-Reading quizzes for the next lecture will be posted before the current lecture, and submissions will be closed the night before the next lecture.
+Reading quizzes for the next lecture will be posted after the current lecture, and submissions will be closed the night before the next lecture.
 
 These are participation points! That means you don't have to get the right answers on the quiz, just convince me that you have read the material.
 
