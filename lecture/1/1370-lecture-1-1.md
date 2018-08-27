@@ -138,4 +138,19 @@ Thinking abstractly
 
 ---
 
-# Class photo
+## http://bit.ly/1370-01-attendance
+
+---
+
+# Reading for next meeting
+
+https://htdp.org/2018-01-06/Book/part_prologue.html
+
+Sections:
+
+- Prologue: How to Program
+- Arithmetic and Arithmetic
+
+---
+
+# Photo
