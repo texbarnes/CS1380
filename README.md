@@ -7,7 +7,7 @@ Lab (CMPE/CSCI 1170 - 01): F 10:40 am - 1:10 pm
 
 There's more to Computer Science than programming, but programming is a great way to learn about how computers "think", and how we can use them as tools to solve problems. In this course, we'll learn how to analyze real-world problems, identify the parts of the problem that a computer could solve much more efficiently than we can, and create a program, which is a set of instructions that tell a computer what to do.
 
-We'll focus on what our texbook authors call the Design Recipe, which is a structured process to creating programs. This process will allow us to solve problems in a step-by-step manner, to produce a program that:
+We'll focus on what our textbook authors call the Design Recipe, which is a structured process to creating programs. This process will allow us to solve problems in a step-by-step manner, to produce a program that:
 
 a. provably works  
 b. can be easily modified to account for future changes  
@@ -15,15 +15,47 @@ c. is well documented so that programmers can understand what it's for
 
 We'll start the course learning the recipe using the programming language Racket, and then transition to C++ later in the term to prove that the recipe is transferrable to any programming language.
 
-## Course info
+<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
+- [Instructor](#instructor)
+	- [Office hours](#office-hours)
+- [Objectives](#objectives)
+- [Course topics calendar](#course-topics-calendar)
+- [Textbook](#textbook)
+- [Software](#software)
+	- [Racket](#racket)
+	- [C++](#c)
+- [Grading](#grading)
+	- [In-class participation](#in-class-participation)
+	- [Reading quizzes](#reading-quizzes)
+	- [Labs](#labs)
+	- [Homework](#homework)
+- [Expectations](#expectations)
+- [Course policies](#course-policies)
+	- [Communication](#communication)
+	- [Office hours](#office-hours)
+	- [Submissions](#submissions)
+	- [Academic honesty](#academic-honesty)
+	- [In-class device policy](#in-class-device-policy)
+- [UTRGV Policies](#utrgv-policies)
+	- [Students with disabilities](#students-with-disabilities)
+		- [Pregnancy, Pregnancy-related, and Parenting Accommodations](#pregnancy-pregnancy-related-and-parenting-accommodations)
+		- [Student Accessibility Services](#student-accessibility-services)
+	- [Mandatory course evaluation period](#mandatory-course-evaluation-period)
+	- [Attendance](#attendance)
+	- [Scholastic integrity](#scholastic-integrity)
+	- [Sexual harassment, discrimination, and violence](#sexual-harassment-discrimination-and-violence)
+	- [Course drops](#course-drops)
+	- [Student services](#student-services)
 
-### Instructor
+<!-- /TOC -->
+
+## Instructor
 
 JJ Lumagbas  
 <jedaiah.lumagbas@utrgv.edu>
 
-#### Office hours
+### Office hours
 
 MW 10:40 am - 12:00 pm  
 TR 10:40 am - 12:00 pm
@@ -42,22 +74,22 @@ At the end of this course, you should be able to:
 
 UTRGV important dates:
 
-| Date             | Event                                                        | 
-|:-----------------|--------------------------------------------------------------| 
-| August 27        | First day of classes                                         | 
-| August 30        | Last day to add a course or register for fall 2018           | 
-| September 3      | Labor Day – NO classes                                       | 
-| November 14      | Last day to drop a course; will count toward the 6-drop rule | 
-| November 22 - 24 | Thanksgiving Holiday – NO classes                            | 
-| December 6       | Study Day – NO classes                                       | 
-| December 7 - 13  | Final Exams                                                  | 
+| Date             | Event                                                        |
+|:-----------------|--------------------------------------------------------------|
+| August 27        | First day of classes                                         |
+| August 30        | Last day to add a course or register for fall 2018           |
+| September 3      | Labor Day – NO classes                                       |
+| November 14      | Last day to drop a course; will count toward the 6-drop rule |
+| November 22 - 24 | Thanksgiving Holiday – NO classes                            |
+| December 6       | Study Day – NO classes                                       |
+| December 7 - 13  | Final Exams                                                  |
 | December 14 – 15 | Commencement Exercises                                       |
 
 ## Textbook
 
 ["How to Design Programs", Second Edition, Felleisen, Findler, Flatt, and Krishnamurthi.](http://htdp.org/2018-01-06/Book/) Available free online
 
-Optional (you do not need to buy this, and no assignments or readings will come from this text): any C++ reference, take your pick. Recommended are: 
+Optional (you do not need to buy this, and no assignments or readings will come from this text): any C++ reference, take your pick. Recommended are:
 
 - ["Problem Solving with C++", Savitch](https://www.amazon.com/Problem-Solving-10th-Walter-Savitch/dp/0134448286)
 - ["C++ Programming: Program Design Including Data Structures", Malik, D.S.](https://www.amazon.com/Programming-Program-Design-Including-Structures/dp/1133526322)
@@ -101,7 +133,7 @@ We'll use VisualStudio later in the term, when we transition to C++. VS is in th
 
 [You'll need voting cards: Download them here.](https://github.com/jjlumagbas/csci1370-2018fall-1/blob/d98df04bd0f999f8c37f13b79f471f7a501ea6d3/lecture/abcde-voting-cards.pdf)
 
-**TL;DR: Research shows that you'll do well in this class if you do the assigned readings, answer the online quizzes, and participate in class discussions.** (Who'd have thought?) 
+**TL;DR: Research shows that you'll do well in this class if you do the assigned readings, answer the online quizzes, and participate in class discussions.** (Who'd have thought?)
 
 For objectivity sake, attendance will stand for in-class participation ('coz you better be sure I'm going to get you to participate if you're in the room).
 
@@ -115,7 +147,7 @@ We're adopting Peer Instruction, which is an active learning method that's been 
 	4a. Think: I reveal the multiple choice question and you think over it for a minute or two (no talking!), and then vote on which option you think is the right answer.  
 	4b. Pair: You partner up and try and show your partner why your answer is obviously correct, and theirs is wrong.  
 	4c. Share: We all vote again, then discuss the different options with the rest of the class.
-	
+
 Here's why I like this method, and why I think it works: Using peer instruction, we get over the **Curse of Knowledge**, which is a condition your instructor (every instructor) has: we just can't remember what it feels like not to know what we know. As a consequence, we (teachers) sometimes explain things in a way in which someone *who already knows the material* can understand, and get surprised when students don't get it. D'oh! The advantage of having a peer explain the concepts to you (who's just learning the concept themselves) is **peers can use the language of a novice, which you'll likely understand better**.
 
 Further, thinking critically about a question and arguing with someone else about it reinforces the concept in your mind, facilitating deep learning. Like my pal [Bert](https://www.goodreads.com/quotes/19421-if-you-can-t-explain-it-to-a-six-year-old) says: [“If you can't explain it to a six year old, you don't understand it yourself.”](https://www.reddit.com/r/explainlikeimfive/) (Warning: Reddit link, do not click.)
@@ -132,7 +164,7 @@ These are participation points! That means you don't have to get the right answe
 
 ### Labs
 
-You should be enrolled in the correct lab! (See above Lab schedule.) Labs will be done in pairs, except potentially for one group (and only one!) who may work in a group of three. You may keep the same lab partners throughout the sem.
+You should be enrolled in the correct lab! (See above Lab schedule.) Labs will be done in pairs, except potentially for one group (and only one!) who may work in a group of three. You may keep the same lab partners throughout the term.
 
 Pair programming means:
 
@@ -159,20 +191,20 @@ Except for as noted (e.g. Homework 1) homeworks will be done in randomly-assigne
 
 How to do well in this course:
 
-- Set a target grade! Do it this week, week 1. Would you like to ace the course? Just barely pass? Plug some numbers into our [grading scheme](#grading) to see how much work (or how little) you'll actually need to do to hit your target.
-- Block off time weekly (or daily!) to work on course requirements outside of class time. Budget at least 5-8 hours per week apart from the lectures and labs to work on readings, homeworks, and studying for exams.
-- Programming is a skill, like playing an instrument. You can't learn to play a guitar just by reading a book, same with programming. Run the examples from the readings and lectures on your own computer (or in the lab), modify them to see how the program behavior changes. Show up to all the labs, and work on the assignments!
-- Start working on the homeworks early. ([I know, this coming from a chronic procrastinator.](https://www.ted.com/talks/tim_urban_inside_the_mind_of_a_master_procrastinator) Do what I say, not what I do.) To this day I underestimate how long a programming problem is going to take, and if I'm going to get stuck on anything (and I always get stuck on *something*).
-- Ask for help. If something's not clear in lecture, put your hand up. If you get stuck on something with the homeworks, send me an email. Meet me during office hours. It's my job to open opportunities for students to ask help, your job to take them.
-- When short on time, submit partial work for partial credit. The emphasis of this course is on the process of problem solving, with the correct solution being a side effect of the process followed well. To that end, do what you can, and show me what you did in the time alloted.
-- Don't copy code! Don't even look at someone else's code. [And especially don't turn in any code that's not your own.](#academic-honesty)
-- If you do all the above, the exams will be easy.
+- **Set a target grade!** Do it this week, week 1. Would you like to ace the course? Just barely pass? Plug some numbers into our [grading scheme](#grading) to see how much work (or how little) you'll actually need to do to hit your target.
+- **Block off time weekly** (or daily!) to work on course requirements outside of class time. Budget at least 5-8 hours per week apart from the lectures and labs to work on readings, homeworks, and studying for exams.
+- **Programming is a skill**, like playing an instrument. You can't learn to play a guitar just by reading a book, same with programming. Run the examples from the readings and lectures on your own computer (or in the lab), modify them to see how the program behavior changes. Show up to all the labs, and work on the assignments!
+- **Start working on the homeworks early.** ([I know, this coming from a chronic procrastinator.](https://www.ted.com/talks/tim_urban_inside_the_mind_of_a_master_procrastinator) Do what I say, not what I do.) To this day I underestimate how long a programming problem is going to take, and if I'm going to get stuck on anything (and I always get stuck on *something*).
+- **Ask for help.** If something's not clear in lecture, put your hand up. If you get stuck on something with the homeworks, send me an email. Meet me during office hours. It's my job to open opportunities for students to ask help, your job to take them.
+- **When short on time, submit partial work** for partial credit. The emphasis of this course is on the process of problem solving, with the correct solution being a side effect of the process followed well. To that end, do what you can, and show me what you did in the time allotted.
+- **Don't copy code!** Don't even look at someone else's code. [And especially don't turn in any code that's not your own.](#academic-honesty)
+- **Exams will be easy** if you do all of the above.
 
 ## Course policies
 
 ### Communication
 
-I'll send announcements through Blackboard, please check there every day. 
+I'll send announcements through Blackboard, please check there every day.
 
 Email me using your UTRGV email, and start the subject line like this "CMPE/CSCI 1370 - 01"
 
@@ -209,11 +241,11 @@ Students with a documented disability (physical, psychological, learning, or oth
 
 #### Pregnancy, Pregnancy-related, and Parenting Accommodations
 
-Title IX of the Education Amendments of 1972 prohibits sex discrimination, which includes discrimination based on pregnancy, marital status, or parental status. Students seeking accommodations related to pregnancy, pregnancy-related condition, or parenting (reasonably immediate postpartum period) are encouraged to contact Student Accessibility Services for additional information and to request accommodations. 
+Title IX of the Education Amendments of 1972 prohibits sex discrimination, which includes discrimination based on pregnancy, marital status, or parental status. Students seeking accommodations related to pregnancy, pregnancy-related condition, or parenting (reasonably immediate postpartum period) are encouraged to contact Student Accessibility Services for additional information and to request accommodations.
 
 #### Student Accessibility Services
 
-Brownsville Campus: Student Accessibility Services is located in Cortez Hall Room 129 and can be contacted by phone at (956) 882-7374 (Voice) or via email at ability@utrgv.edu. 
+Brownsville Campus: Student Accessibility Services is located in Cortez Hall Room 129 and can be contacted by phone at (956) 882-7374 (Voice) or via email at ability@utrgv.edu.
 
 Edinburg Campus: Student Accessibility Services is located in 108 University Center and can be contacted by phone at (956) 665-7005 (Voice), (956) 665-3840 (Fax), or via email at ability@utrgv.edu.
 
@@ -227,7 +259,7 @@ Full Fall Semester	November 15 – December 5
 
 ### Attendance
 
-Students are expected to attend all scheduled classes and may be dropped from the course for excessive absences.  UTRGV’s attendance policy excuses students from attending class if they are participating in officially sponsored university activities, such as athletics; for observance of religious holy days; or for military service. Students should contact the instructor in advance of the excused absence and arrange to make up missed work or examinations. 
+Students are expected to attend all scheduled classes and may be dropped from the course for excessive absences.  UTRGV’s attendance policy excuses students from attending class if they are participating in officially sponsored university activities, such as athletics; for observance of religious holy days; or for military service. Students should contact the instructor in advance of the excused absence and arrange to make up missed work or examinations.
 
 ### Scholastic integrity
 
@@ -243,13 +275,13 @@ According to UTRGV policy, students may drop any class without penalty earning a
 
 ### Student services
 
-Students who demonstrate financial need have a variety of options when it comes to paying for college costs, such as scholarships, grants, loans and work-study. Students should visit the Students Services Center (U Central) for additional information. 
+Students who demonstrate financial need have a variety of options when it comes to paying for college costs, such as scholarships, grants, loans and work-study. Students should visit the Students Services Center (U Central) for additional information.
 
-U Central is located in BMAIN 1.100 (Brownsville) or ESSBL 1.145 (Edinburg) or can be reached by email (ucentral@utrgv.edu) or telephone: (888) 882-4026. In addition to financial aid, U Central can assist students with registration and admissions. 
+U Central is located in BMAIN 1.100 (Brownsville) or ESSBL 1.145 (Edinburg) or can be reached by email (ucentral@utrgv.edu) or telephone: (888) 882-4026. In addition to financial aid, U Central can assist students with registration and admissions.
 
-Students seeking academic help in their studies can use university resources in addition to an instructor’s office hours. University Resources include the Learning Center, Writing Center, Advising Center and Career Center. The centers provide services such as tutoring, writing help, critical thinking, study skills, degree planning, and student employment. Locations are: 
+Students seeking academic help in their studies can use university resources in addition to an instructor’s office hours. University Resources include the Learning Center, Writing Center, Advising Center and Career Center. The centers provide services such as tutoring, writing help, critical thinking, study skills, degree planning, and student employment. Locations are:
 
 Learning center: BSTUN 2.10 (Brownsville) or ELCTR 100 (Edinburg)  
 Writing center: BLIBR 3.206 (Brownsville) or ESTAC 3.119 (Edinburg)  
 Advising center: BMAIN 1.400 (Brownsville) or ESWKH 101 (Edinburg)  
-Career center: BCRTZ 129 (Brownsville) or ESSBL 2.101 (Edinburg) 
+Career center: BCRTZ 129 (Brownsville) or ESSBL 2.101 (Edinburg)
