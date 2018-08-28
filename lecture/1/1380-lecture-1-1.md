@@ -1,17 +1,17 @@
 <!--
 $theme: gaia
 template: invert
-footer: CMPE/CSCI 1370 - 01 
+footer: CSCI 1380 - 06
 -->
 
 # Computer Science I
-#### CMPE/CSCI 1370 - 01 
+#### CSCI 1380 - 06 
 
-MW 9:25 am - 10:40 am
+TR 9:25 am - 10:40 am
 <br>
 <br>
 <br>
-### http://bit.ly/1370abcde
+### http://bit.ly/1380abcde
 
 ---
 
@@ -54,16 +54,6 @@ Me:
 #### C. Worked as a barista in Melbourne
 #### D. Ate crickets and silkworms at a street stall in Cambodia
 #### E. Had eye poked repeatedly with a needle, not by accident
-
----
-
-How interested are you in majoring or minoring in computer science?
-
-#### A. Extremely interested
-#### B. Moderately interested
-#### C. Mildly interested
-#### D. Not interested at all
-#### E. I kind of hate CS, actually
 
 ---
 
@@ -134,11 +124,7 @@ Thinking abstractly
 
 # Syllabus highlights
 
-### http://bit.ly/1370-1
-
----
-
-## http://bit.ly/1370-01-attendance
+### http://bit.ly/1380-6
 
 ---
 
