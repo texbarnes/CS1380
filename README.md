@@ -1,9 +1,8 @@
-# CMPE/CSCI 1370 - 01 Computer Science I
+# CSCI 1380 - 06 Computer Science I
 
-<https://github.com/jjlumagbas/csci1370-2018fall-1>
+<https://github.com/jjlumagbas/csci1380-2018fall-6.git>
 
-Lecture: MW 9:25 am - 10:40 am  
-Lab (CMPE/CSCI 1170 - 01): F 10:40 am - 1:10 pm
+Lecture: TR 9:25 am - 10:40 am (2.110)
 
 There's more to Computer Science than programming, but programming is a great way to learn about how computers "think", and how we can use them as tools to solve problems. In this course, we'll learn how to analyze real-world problems, identify the parts of the problem that a computer could solve much more efficiently than we can, and create a program, which is a set of instructions that tell a computer what to do.
 
@@ -28,7 +27,7 @@ We'll start the course learning the recipe using the programming language Racket
 - [Grading](#grading)
 	- [In-class participation](#in-class-participation)
 	- [Reading quizzes](#reading-quizzes)
-	- [Labs](#labs)
+	- [In-class exercises](#in-class-exercises)
 	- [Homework](#homework)
 - [Expectations](#expectations)
 - [Course policies](#course-policies)
@@ -113,7 +112,7 @@ We'll use VisualStudio later in the term, when we transition to C++. VS is in th
 |------------------------|-----------:|
 | In-class participation |        10% |
 | Reading quizzes        |        10% |
-| Lab                    |        10% |
+| In-class exercises     |        10% |
 | Homework               |        25% |
 | Exam 1                 |      12.5% |
 | Exam 2                 |      12.5% |
@@ -131,7 +130,7 @@ We'll use VisualStudio later in the term, when we transition to C++. VS is in th
 
 ### In-class participation
 
-[You'll need voting cards: Download them here.](https://github.com/jjlumagbas/csci1370-2018fall-1/blob/d98df04bd0f999f8c37f13b79f471f7a501ea6d3/lecture/abcde-voting-cards.pdf)
+[You'll need voting cards: Download them here.](https://github.com/jjlumagbas/csci1380-2018fall-6/blob/c97ae60db6f2558779f25bab0a1f392664a1aad6/lecture/abcde-voting-cards.pdf)
 
 **TL;DR: Research shows that you'll do well in this class if you do the assigned readings, answer the online quizzes, and participate in class discussions.** (Who'd have thought?)
 
@@ -162,9 +161,9 @@ Reading quizzes for the next lecture will be posted after the current lecture, a
 
 These are participation points! That means you don't have to get the right answers on the quiz, just convince me that you have read the material.
 
-### Labs
+### In-class exercises
 
-You should be enrolled in the correct lab! (See above Lab schedule.) Labs will be done in pairs, except potentially for one group (and only one!) who may work in a group of three. You may keep the same lab partners throughout the term.
+In-class exercises will be done in pairs, except potentially for one group (and only one!) who may work in a group of three. You may keep the same "lab partner" throughout the term.
 
 Pair programming means:
 
@@ -178,11 +177,11 @@ Pair programming does not mean:
 - One person does all the work
 - While the other person scrolls through Instagram, and checks the clock periodically
 
-Lab submissions have to be made during lab time, except when otherwise noted, so show up to lab!
+Submissions have to be made during class time, except when otherwise noted, so show up to lectures!
 
 ### Homework
 
-Homeworks are bigger lab exercises (or maybe mini-projects), that ask you to integrate different topics discussed in class. These are to be performed outside of class time (as the name implies).
+Homeworks are mini-projects that ask you to integrate different topics discussed in class. These are to be performed outside of class time (as the name implies).
 
 Except for as noted (e.g. Homework 1) homeworks will be done in randomly-assigned pairs, a different pair each time. However, working in the pair is optional (although encouraged!). When the homework is released, we'll assign pairs during lecture time, and you can decide then to work together, or individually.
 
@@ -192,8 +191,8 @@ Except for as noted (e.g. Homework 1) homeworks will be done in randomly-assigne
 How to do well in this course:
 
 - **Set a target grade!** Do it this week, week 1. Would you like to ace the course? Just barely pass? Plug some numbers into our [grading scheme](#grading) to see how much work (or how little) you'll actually need to do to hit your target.
-- **Block off time weekly** (or daily!) to work on course requirements outside of class time. Budget at least 5-8 hours per week apart from the lectures and labs to work on readings, homeworks, and studying for exams.
-- **Programming is a skill**, like playing an instrument. You can't learn to play a guitar just by reading a book, same with programming. Run the examples from the readings and lectures on your own computer (or in the lab), modify them to see how the program behavior changes. Show up to all the labs, and work on the assignments!
+- **Block off time weekly** (or daily!) to work on course requirements outside of class time. Budget at least 5 hours per week apart from the lectures to work on readings, homeworks, and studying for exams.
+- **Programming is a skill**, like playing an instrument. You can't learn to play a guitar just by reading a book, same with programming. Run the examples from the readings and lectures on your own computer (or in the lab), modify them to see how the program behavior changes. Show up to all the lectures, and work on the assignments!
 - **Start working on the homeworks early.** ([I know, this coming from a chronic procrastinator.](https://www.ted.com/talks/tim_urban_inside_the_mind_of_a_master_procrastinator) Do what I say, not what I do.) To this day I underestimate how long a programming problem is going to take, and if I'm going to get stuck on anything (and I always get stuck on *something*).
 - **Ask for help.** If something's not clear in lecture, put your hand up. If you get stuck on something with the homeworks, send me an email. Meet me during office hours. It's my job to open opportunities for students to ask help, your job to take them.
 - **When short on time, submit partial work** for partial credit. The emphasis of this course is on the process of problem solving, with the correct solution being a side effect of the process followed well. To that end, do what you can, and show me what you did in the time allotted.
@@ -206,7 +205,7 @@ How to do well in this course:
 
 I'll send announcements through Blackboard, please check there every day.
 
-Email me using your UTRGV email, and start the subject line like this "CMPE/CSCI 1370 - 01"
+Email me using your UTRGV email, and start the subject line like this "CSCI 1380 - 06"
 
 ### Office hours
 
@@ -220,11 +219,11 @@ Late submissions will not be accepted. You are responsible for starting assignme
 
 ### Academic honesty
 
-Collaboration is encouraged in this course: most labs and homeworks will be done in pairs. Outside of those pairs, though, sharing of code is strictly not allowed. Do not send code to another pair, do not copy code off the internet, do not look at solutions of others to get clues on the solution.
+Collaboration is encouraged in this course: most exercises and homeworks will be done in pairs. Outside of those pairs, though, sharing of code is strictly not allowed. Do not send code to another pair, do not copy code off the internet, do not look at solutions of others to get clues on the solution.
 
-If you're stuck on some syntax problems, ask during lab times, or send me an email.
+If you're stuck on some syntax problems, ask during lecture times, or send me an email.
 
-For any lab, homework, or exam, a score of 0 will be given to all parties involved in cheating.
+For any in-class exercise, homework, or exam, a score of 0 will be given to all parties involved in cheating.
 
 
 ### In-class device policy
