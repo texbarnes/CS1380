@@ -75,10 +75,9 @@ Complete the sentence: It would be cool if at the end of this course, I could...
 
 # Key themes
 
-- Programmability
-- Automation
-- Abstraction
+- Programmability and automation
 - Computational thinking
+- Abstraction
 
 ---
 
@@ -86,6 +85,12 @@ Complete the sentence: It would be cool if at the end of this course, I could...
 
 ---
 
+# Automation: Programs
+
+- Arbitrary
+- Unambiguous
+
+---
 
 # ![](images/automation-2.png)
 
@@ -99,16 +104,16 @@ Complete the sentence: It would be cool if at the end of this course, I could...
 
 - Arbitrary
 - Unambiguous
+- Sequenced
 - Appropriate levels of abstraction
 
 ---
 
 # Key themes
 
-- Programmability
-- Automation
-- Abstraction
+- Programmability and automation
 - Computational thinking
+- Abstraction
 
 ---
 
