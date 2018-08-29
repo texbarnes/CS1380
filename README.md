@@ -2,7 +2,8 @@
 
 <https://github.com/texbarnes/CS1380>
 
-Lecture: TR 9:25 am - 10:40 am (2.110)
+Section 01 Lecture: MW 12:15 pm - 1:30 pm (2.110)
+Section 07 Lecture: MW 1:40 pm - 2:55 pm (2.110)
 
 There's more to Computer Science than programming, but programming is a great way to learn about how computers "think", and how we can use them as tools to solve problems. In this course, we'll learn how to analyze real-world problems, identify the parts of the problem that a computer could solve much more efficiently than we can, and create a program, which is a set of instructions that tell a computer what to do.
 
@@ -51,13 +52,12 @@ We'll start the course learning the recipe using the programming language Racket
 
 ## Instructor
 
-JJ Lumagbas  
-<jedaiah.lumagbas@utrgv.edu>
+Dr. Michael C. Barnes
+<michael.barnes01@utrgv.edu>
 
 ### Office hours
 
-MW 10:40 am - 12:00 pm  
-TR 10:40 am - 12:00 pm
+MW 8:00 am - 10:00 am  
 
 ## Objectives
 
