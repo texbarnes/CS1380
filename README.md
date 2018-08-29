@@ -59,6 +59,7 @@ Dr. Michael C. Barnes
 
 MW 8:00 am - 10:00 am  
 EENGR 3.295
+
 If lost, ask for "Lisa"
 
 ## Objectives
