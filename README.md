@@ -1,6 +1,6 @@
 # CSCI 1380 - 06 Computer Science I
 
-<https://github.com/jjlumagbas/csci1380-2018fall-6.git>
+<https://github.com/texbarnes/CS1380>
 
 Lecture: TR 9:25 am - 10:40 am (2.110)
 
@@ -65,7 +65,12 @@ TR 10:40 am - 12:00 pm
 
 At the end of this course, you should be able to:
 
-- Design, implement, test, and debug programs that use each of the following fundamental programming constructs: basic computation, standard conditional and iterative structures, and the definition of functions.- Analyze the behavior of simple programs involving fundamental programming constructs.- Choose appropriate conditional and iterative constructs for a programming task.- Apply the techniques of structured (functional) decomposition to break a program into smaller pieces -- or, better yet, originally design it using such smaller pieces.- Describe strategies that are useful in testing and debugging.- Write clear comments that communicate to the reader what a function expects and what it produces.
+- Design, implement, test, and debug programs that use each of the following fundamental programming constructs: basic computation, standard conditional and iterative structures, and the definition of functions.
+- Analyze the behavior of simple programs involving fundamental programming constructs.
+- Choose appropriate conditional and iterative constructs for a programming task.
+- Apply the techniques of structured (functional) decomposition to break a program into smaller pieces -- or, better yet, originally design it using such smaller pieces.
+- Describe strategies that are useful in testing and debugging.
+- Write clear comments that communicate to the reader what a function expects and what it produces.
 
 ## Course topics calendar
 
