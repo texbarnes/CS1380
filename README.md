@@ -1,4 +1,4 @@
-# CSCI 1380 - 06 Computer Science I
+# CSCI 1380 - 01 & 07 Computer Science I
 
 <https://github.com/texbarnes/CS1380>
 
