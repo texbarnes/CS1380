@@ -1,3 +1,3 @@
 # Assignments live here!
 
-https://goo.gl/6y9dFL
+Homework 1. 9.10.18 - https://goo.gl/6y9dFL
