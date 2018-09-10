@@ -6,6 +6,7 @@ Section 01 Lecture: MW 12:15 pm - 1:30 pm (2.110)
 Attendance: https://goo.gl/forms/02H8ZOtLESjxJgEG3
 
 Section 07 Lecture: MW 1:40 pm - 2:55 pm (2.110)
+Attendance: https://goo.gl/forms/FhxTcErTU0W3rzA43
 
 There's more to Computer Science than programming, but programming is a great way to learn about how computers "think", and how we can use them as tools to solve problems. In this course, we'll learn how to analyze real-world problems, identify the parts of the problem that a computer could solve much more efficiently than we can, and create a program, which is a set of instructions that tell a computer what to do.
 
