@@ -16,3 +16,5 @@ Environment: IDE = Dr. Racket
 Plan your journey: HW # 1
 Go forth: Nulla dia sine linea = No day without a line... of code!
 
+# Going Deeper - Expressions vs. Functions
+
