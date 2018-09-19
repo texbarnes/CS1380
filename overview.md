@@ -79,3 +79,5 @@ Dr. B - Class Example
 ; always create a test!
 
 (totaltip 20 8.62)
+
+# Sample Student Functions v1.0
