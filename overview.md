@@ -205,3 +205,5 @@ Dr. B - Class Example
 # Input and Output
 
 https://docs.racket-lang.org/drracket/interactions-window.html?q=input#%28part._.Input_and_.Output%29
+
+https://docs.racket-lang.org/drracket/interface-essentials.html?q=input#%28tech._interactions._window%29
