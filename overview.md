@@ -81,3 +81,123 @@ Dr. B - Class Example
 (totaltip 20 8.62)
 
 # Sample Student Functions v1.0
+
+; EXAMPLE 1
+
+"Calculates a profit amount from $20 dollars after expenses of $14, $9, $6 :"
+;This function will calculate the amount of profit you will have after the
+; fixed amounts of expenses are taken away from the total revenue which is 20 bucks.
+
+(define (expense x ) (- 20 x ))
+
+(expense 14)
+(expense 9)
+(expense 6)       
+
+"Expense function shows how much money will be left after the 'x' amount of expenses"
+;which will give you the different amounts of profits  
+
+; EXAMPLE 2
+
+; homework 2 
+; create your own function!
+; define how much 401 k is being saved for retirement weekly->anually 
+
+(define (401k p s)  (* (/ p 100) s))
+(define (CompleteCheck p s) (- (401k p s) s))
+
+;test
+
+(*(CompleteCheck 1300 10.0) 54)
+
+; EXAMPLE 3
+
+; MY FUNCTION !!!
+
+; Calculate the average of quiz scores
+
+(define (Quiz a b c d) (/ (+ a b c d) 4))
+
+; TEST - Quiz
+"Average of quizzes"
+(Quiz 80 99 60 85)
+
+; EXAMPLE 4
+
+;Budget Calculator
+; t = beginning total
+; s = spent
+; i = any new income you may inquire
+
+(define (Budget t s i) (+ (- t s) i))
+
+;beginning budget of $350, spent $12 on lunch, haven't gained any more money
+(Budget 350 12 0)
+
+; EXAMPLE 5
+
+; created 9.17.18, last modified 9.18.18
+
+; Create a function. Purpose is to convert from centimeters to inches.
+; Things needed to know:
+; --Length in cm,
+; --Convertion factor of cm to in (2.54 cm = 1 in).
+; argument "x" defined as length in cm.
+
+(define (cm_to_inches x) (/ x 2.54))
+
+; The following is to test cm_to_inches
+
+"cm_to_inches will change a length of unit cm to a length of unit inches"
+
+(cm_to_inches 2.54)
+; (cm_to_inches 500)
+
+; EXAMPLE 6
+
+; Finishing a book
+; A book with 295 pages has to be read in a week
+
+"Qs: how many pages should I read per day?"
+
+(define (Pages p d) (/ p d))
+
+(Pages 295 7)
+
+"And if I skip a day?"
+
+(Pages 295 6)
+
+"I got another week to read it actually"
+
+(Pages 295 14)
+
+"But I need to do a report afterwards"
+; I type 63 WPM and the report should be 2 pages long.
+; Assuming I don´t procrastinate at all and I start my report the moment I finish the book non-stop.
+"How much time will it take me to do the report"
+; Assuming a page can fit 700 words.
+
+(define (Time w s) (* (/ w s) 2)) 
+
+(Time 700 63)
+
+;If it really was that fast..."
+
+"So how much time will it take me to finish reading and writing"
+
+;The book has an average of 350 words per page.
+;I read 240 words per minute.
+
+(define (WPM t v) (* (/ t v) 295))
+
+(WPM 350 240)
+(+ 430.2083 22.2)
+
+"That seems confusing, how about in hours"
+
+(/ 452.4083 60)
+
+"So basically if I were a robot I could finish in 7 hours and a half"
+
+;In the end I wanted to make everything in just one big expression like: (/(+(* (/ t v
