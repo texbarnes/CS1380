@@ -201,3 +201,7 @@ Dr. B - Class Example
 "So basically if I were a robot I could finish in 7 hours and a half"
 
 ;In the end I wanted to make everything in just one big expression like: (/(+(* (/ t v
+
+# Input and Output
+
+https://docs.racket-lang.org/drracket/interactions-window.html?q=input#%28part._.Input_and_.Output%29
