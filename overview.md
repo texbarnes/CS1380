@@ -207,3 +207,70 @@ Dr. B - Class Example
 https://docs.racket-lang.org/drracket/interactions-window.html?q=input#%28part._.Input_and_.Output%29
 
 https://docs.racket-lang.org/drracket/interface-essentials.html?q=input#%28tech._interactions._window%29
+
+# Sample with Input / Output
+
+#lang racket
+
+; (define cool (read))
+
+"I will make a test"
+"."
+"."
+"."
+"Here is what you entered:"
+
+; (display cool)(newline)
+
+"This is time passing..."
+"."
+"."
+"Information is being stored..."
+"."
+"."
+"I'll reveal it again when I feel like it:"
+
+;(display cool)(newline)
+
+; How can we apply this new power?
+; Maybe at the movies?
+
+"How many people do you have in your group?"
+
+; (define people (read))
+
+"How many are under the age of 7.5?"
+
+; (define kids (read))
+
+"Adult tickets - anyone over 7.5 - are $10."
+"Kids tickets - anyone under 7.5 - are $3."
+
+; (display (+(* 10 (- people kids)) (* 3 (kids))))
+
+"Confirm you have this many people:" ; (display people)
+
+"."
+
+"."
+
+
+; This function learns your name, then unjinxes you if you ever get jinxed.
+
+"Please tell me your name, so I can unjinx you."
+
+(define yourname (read))
+
+"Hello:" (display yourname)
+
+" "
+
+"Okay here goes:"
+(newline)
+"Silly-" (display yourname)
+(newline)
+"Funny-" (display yourname)
+(newline)
+"Happy-" (display yourname)
+
+"Am I there yet? Y/N"
