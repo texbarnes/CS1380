@@ -309,7 +309,13 @@ https://docs.racket-lang.org/drracket/interface-essentials.html?q=input#%28tech.
 
 magic (newline)
 
-(* 7 magic)
+; the next line is REALLY REALLY important!
+
+(* 7 magic)(newline)
+
+(newline)
+
+"Whew. We've done a lot of work. Eh?"
 
 ; back to cm_to_inch
 
