@@ -344,3 +344,83 @@ magic (newline)
 (define bigness (read)) (newline)
 
 (circle bigness open_closed fav_color)
+
+# Better Better Class Example
+
+#lang racket
+
+(require 2htdp/image)
+
+; the next phase of evolution in programming is I/O "Input/Output"
+; this allows the user to engage the program / function!
+; together, we can interact.
+
+"Hello student:" 34353543543
+"34353543543"
+
+"Tell me your age:"
+
+(define age (read))
+
+"OMG you are the same age as me:"
+
+(display age)(newline)
+
+; ALTERNATIVE FUNCTION
+
+"Pick a number 1 through 10."
+
+(define magic (read))
+
+(newline)
+
+; "When I read your number aloud, jump up and clap!"
+
+; "."
+
+"Let's say your magic number is really your age in dog years!"
+
+"You chose:"
+
+(display magic)(newline)
+
+; the next line is REALLY REALLY important!
+
+"Your age in dog years then, is just" (display age) "times" (display magic) ", which equals:" 
+
+(define (dogyears)(* age magic))(newline)
+(dogyears)
+
+(newline)
+
+"Whew. We've done a lot of work. Eh?"
+
+; back to cm_to_inch
+
+(newline)
+
+"How many CM do you have?"
+
+(define cm (read))
+
+"Did you know you also have this many inches:"
+
+(/ cm 2.54)
+
+"What is your favorite color?"
+
+(define fav_color (read)) (newline)
+
+"Are you more open to new ideas, or close-minded?"
+
+"For Open, type 'outline' - For Close-minded, type 'solid'"
+
+(define open_closed (read)) (newline)
+
+"Is bigger really better? Give me a number from 5-500:"
+
+; define bigness (read)) (newline)
+
+(circle (dogyears) open_closed fav_color)
+
+; how can I change this program to add the 'dogyears' number to the inside of my circle?
